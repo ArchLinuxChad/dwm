@@ -11,7 +11,7 @@ static const int systraypinningfailfirst = 1;   /* 1: if pinning fails, display 
 static const int showsystray        = 1;        /* 0 means no systray */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "monospace:size=16" };
+static const char *fonts[]          = { "SpaceMono Nerd Font:size=16" };
 static const char dmenufont[]       = "monospace:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
@@ -63,7 +63,7 @@ static const Layout layouts[] = {
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
-static const char *dmenucmd[] = { "rofi", "-show", "drun", NULL };
+static const char *dmenucmd[] = { "dmenu_run", NULL };
 static const char *termcmd[]  = { "kitty", NULL };
 
 static const Key keys[] = {
