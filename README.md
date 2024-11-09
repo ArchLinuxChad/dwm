@@ -1,1 +1,1 @@
-# dwm
+# My DWM Configuration
